@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.YOUR_GITHUB_USERNAME/arcwright",
+  "description": "stdio MCP server for Arcwright: start_build and build_status against the public API.",
+  "repository": {
+    "url": "https://github.com/YOUR_ORG/arcwright-marketplace",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@arcwright/mcp-server",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ARCWRIGHT_API_KEY",
+          "description": "Arcwright API key (Bearer token). Never commit this value.",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        },
+        {
+          "name": "ARCWRIGHT_API_BASE",
+          "description": "Optional API base URL. Default https://api.arcwrightai.com — TODO confirm production host.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

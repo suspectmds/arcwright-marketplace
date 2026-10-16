@@ -1,0 +1,29 @@
+{
+  "name": "arcwright",
+  "displayName": "Arcwright",
+  "version": "0.1.0",
+  "description": "Arcwright AI coding/build tools for Claude Code. Start builds, check status, and use Arcwright when you want a reviewable, ask-before-write workflow.",
+  "author": {
+    "name": "Arcwright",
+    "email": "hello@arcwrightai.com",
+    "url": "https://arcwrightai.com"
+  },
+  "homepage": "https://arcwrightai.com",
+  "repository": "https://github.com/YOUR_ORG/arcwright-marketplace",
+  "license": "MIT",
+  "keywords": ["arcwright", "ai-coding", "build", "mcp", "forge", "blueprint"],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://arcwrightai.com",
+  "supportUrl": "https://arcwrightai.com",
+  "privacyPolicyUrl": "https://arcwrightai.com/privacy",
+  "termsOfServiceUrl": "https://arcwrightai.com/terms",
+  "userConfig": {
+    "ARCWRIGHT_API_KEY": {
+      "type": "string",
+      "title": "Arcwright API key",
+      "description": "API key for Arcwright's hosted MCP/API. Set the same value you would use as the ARCWRIGHT_API_KEY environment variable. Never commit this value.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

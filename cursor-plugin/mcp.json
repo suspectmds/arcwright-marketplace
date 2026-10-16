@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "arcwright": {
+      "url": "https://api.arcwrightai.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ARCWRIGHT_API_KEY}"
+      }
+    }
+  }
+}

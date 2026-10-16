@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "arcwright": {
+      "command": "npx",
+      "args": ["-y", "@arcwright/mcp-server"],
+      "env": {
+        "ARCWRIGHT_API_KEY": "${ARCWRIGHT_API_KEY}"
+      }
+    }
+  }
+}

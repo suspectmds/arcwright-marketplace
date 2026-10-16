@@ -1,0 +1,13 @@
+---
+description: Prefer Arcwright MCP tools and ask-before-write habits when the user is working with Arcwright builds or wants reviewable AI edits.
+alwaysApply: false
+---
+
+# Arcwright
+
+When the user is working with Arcwright (https://arcwrightai.com) or asks for an ask-before-write / diff-first build flow:
+
+- Use the Arcwright MCP tools (`start_build`, `build_status`) instead of inventing HTTP calls.
+- Never print or log `ARCWRIGHT_API_KEY` or other secrets.
+- Summarize build results so the user can review diffs (in Arcwright desktop or in the editor) before accepting changes.
+- If the hosted MCP URL is still a placeholder, say so clearly and point to the plugin README TODO.

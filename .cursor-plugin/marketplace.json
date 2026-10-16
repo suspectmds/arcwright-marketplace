@@ -1,0 +1,22 @@
+{
+  "name": "arcwright-marketplace",
+  "owner": {
+    "name": "Arcwright",
+    "email": "hello@arcwrightai.com"
+  },
+  "metadata": {
+    "description": "Arcwright plugins for Cursor — AI coding/build tools that show their work.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "arcwright",
+      "source": "cursor-plugin",
+      "description": "Connect Cursor to Arcwright: rules, skill, and MCP for builds and status.",
+      "version": "0.1.0",
+      "homepage": "https://arcwrightai.com",
+      "keywords": ["arcwright", "ai-coding", "build", "mcp"],
+      "logo": "cursor-plugin/assets/logo.svg"
+    }
+  ]
+}

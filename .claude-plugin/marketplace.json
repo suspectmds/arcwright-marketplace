@@ -1,0 +1,23 @@
+{
+  "name": "arcwright-marketplace",
+  "description": "Official Arcwright plugins for Claude Code — AI coding/build tools that show their work.",
+  "owner": {
+    "name": "Arcwright",
+    "email": "hello@arcwrightai.com"
+  },
+  "plugins": [
+    {
+      "name": "arcwright",
+      "source": "./plugins/arcwright",
+      "description": "Connect Claude Code to Arcwright: start builds, check status, and follow Arcwright workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Arcwright",
+        "email": "hello@arcwrightai.com",
+        "url": "https://arcwrightai.com"
+      },
+      "homepage": "https://arcwrightai.com",
+      "keywords": ["arcwright", "ai-coding", "build", "mcp", "forge"]
+    }
+  ]
+}

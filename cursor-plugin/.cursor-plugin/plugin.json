@@ -1,0 +1,25 @@
+{
+  "name": "arcwright",
+  "version": "0.1.0",
+  "description": "Arcwright AI coding/build tools for Cursor. Rules, skill, and MCP config for start_build / build_status against Arcwright's hosted API.",
+  "author": {
+    "name": "Arcwright",
+    "email": "hello@arcwrightai.com"
+  },
+  "homepage": "https://arcwrightai.com",
+  "repository": "https://github.com/YOUR_ORG/arcwright-marketplace",
+  "license": "MIT",
+  "keywords": ["arcwright", "ai-coding", "build", "mcp", "forge"],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "ARCWRIGHT_API_KEY": {
+        "type": "string",
+        "title": "Arcwright API key",
+        "description": "API key for Arcwright's hosted MCP/API. Same value as the ARCWRIGHT_API_KEY environment variable. Set in Cursor: Plugins → Configure. Never commit secrets."
+      }
+    },
+    "required": ["ARCWRIGHT_API_KEY"]
+  }
+}
