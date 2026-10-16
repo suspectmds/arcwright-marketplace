@@ -1,5 +1,7 @@
 # Arcwright (Claude Code plugin)
 
+> **Get started:** [Sign up free](https://arcwrightai.com/account/signup) for an Arcwright account and API key. Higher limits are on the [paid plans](https://arcwrightai.com/pricing).
+
 Connect [Claude Code](https://code.claude.com) to [Arcwright](https://arcwrightai.com) — an AI coding/build tool that asks before it writes and shows every change as a diff.
 
 ## What you get
@@ -21,10 +23,10 @@ claude plugin marketplace add ./path/to/arcwright-marketplace
 claude plugin install arcwright@arcwright-marketplace
 ```
 
-From GitHub (after you push — replace `YOUR_ORG`):
+From GitHub (after you push):
 
 ```bash
-claude plugin marketplace add YOUR_ORG/arcwright-marketplace
+claude plugin marketplace add suspectmds/arcwright-marketplace
 claude plugin install arcwright@arcwright-marketplace
 ```
 

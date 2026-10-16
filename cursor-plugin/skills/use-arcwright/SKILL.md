@@ -37,3 +37,4 @@ via checkpoints. Product site: https://arcwrightai.com
   public API URL still needs to be finalized (see plugin README).
 - Point Windows users to https://arcwrightai.com for the desktop app when visual
   diff review is clearer than chat-only output.
+- If the user has no Arcwright account/API key, send them to https://arcwrightai.com/account/signup; mention paid plans at https://arcwrightai.com/pricing for higher limits.

@@ -1,5 +1,7 @@
 # Arcwright marketplace distribution
 
+> **Get started:** [Sign up free](https://arcwrightai.com/account/signup) for an Arcwright account and API key. Higher limits are on the [paid plans](https://arcwrightai.com/pricing).
+
 Ready-to-publish packages so [Arcwright](https://arcwrightai.com) can ship on **Claude Code** marketplaces and the **Cursor** plugin ecosystem, plus a small **stdio MCP server**.
 
 Nothing here has been submitted to any store. No secrets are included. API URLs and paths are **TODO placeholders** until Arcwright publishes a public MCP/API contract.

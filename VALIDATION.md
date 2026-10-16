@@ -27,5 +27,5 @@ cd mcp-server && npm install && npm test
 
 1. Replace hosted MCP URL placeholders once Arcwright publishes them.
 2. Align `mcp-server` `/v1/builds` paths with the real API.
-3. Replace `YOUR_ORG` / `YOUR_GITHUB_USERNAME` strings.
+3. Replace `suspectmds` / `suspectmds` strings.
 4. Submit forms listed in `PUBLISHING.md` (accounts required).

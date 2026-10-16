@@ -1,6 +1,6 @@
 # Publishing Arcwright to Claude Code & Cursor marketplaces
 
-This guide is **step-by-step for the owner**. Nothing in this repository has been submitted or published for you. Replace every `YOUR_ORG` / `YOUR_GITHUB_USERNAME` placeholder before going live.
+This guide is **step-by-step for the owner**. Nothing in this repository has been submitted or published for you. Replace every `suspectmds` / `suspectmds` placeholder before going live.
 
 **Do not commit secrets.** Use `ARCWRIGHT_API_KEY` only via env vars, Claude plugin Configure, or Cursor Plugins → Configure.
 
@@ -32,11 +32,11 @@ git init
 git add .
 git commit -m "Add Arcwright Claude Code and Cursor marketplace package"
 git branch -M main
-git remote add origin https://github.com/YOUR_ORG/arcwright-marketplace.git
+git remote add origin https://github.com/suspectmds/arcwright-marketplace.git
 git push -u origin main
 ```
 
-3. Edit manifests to replace `YOUR_ORG` / `YOUR_GITHUB_USERNAME` in:
+3. Edit manifests to replace `suspectmds` / `suspectmds` in:
    - `plugins/arcwright/.claude-plugin/plugin.json` (`repository`)
    - `cursor-plugin/.cursor-plugin/plugin.json` (`repository`)
    - `mcp-server/package.json` (`mcpName`, `repository`)
@@ -68,14 +68,14 @@ claude plugin install arcwright@arcwright-marketplace
 **From GitHub (after push):**
 
 ```bash
-claude plugin marketplace add YOUR_ORG/arcwright-marketplace
+claude plugin marketplace add suspectmds/arcwright-marketplace
 claude plugin install arcwright@arcwright-marketplace
 ```
 
 Or inside a Claude Code session:
 
 ```text
-/plugin marketplace add YOUR_ORG/arcwright-marketplace
+/plugin marketplace add suspectmds/arcwright-marketplace
 /plugin install arcwright@arcwright-marketplace
 ```
 
@@ -157,7 +157,7 @@ Docs:
 
 1. Update `mcp-server/package.json`:
    - `name` (npm scope you own)
-   - `mcpName` (must match `server.json` `name`, e.g. `io.github.YOUR_GITHUB_USERNAME/arcwright`)
+   - `mcpName` (must match `server.json` `name`, e.g. `io.github.suspectmds/arcwright`)
 2. Update `mcp-server/server.json` the same way.
 3. Publish the package to npm (registry hosts **metadata only**):
 
@@ -178,7 +178,7 @@ mcp-publisher publish ./server.json
 6. Verify:
 
 ```bash
-curl "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.YOUR_GITHUB_USERNAME/arcwright"
+curl "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.suspectmds/arcwright"
 ```
 
 Optional later: domain auth for `com.arcwrightai/arcwright` via DNS/HTTP verification on arcwrightai.com.
@@ -196,7 +196,7 @@ This is **separate** from the official Cursor Marketplace. Community listing doe
 
 1. Keep root `.mcp.json` (and/or Cursor plugin files) on the public default branch.
 2. Sign in with GitHub or Google at [cursor.directory/plugins/new](https://cursor.directory/plugins/new).
-3. Paste `https://github.com/YOUR_ORG/arcwright-marketplace`.
+3. Paste `https://github.com/suspectmds/arcwright-marketplace`.
 4. Use **Scan repo** / auto-detect (looks for `.mcp.json`, `mcp.json`, skills, rules, etc.).
 5. Publish. A security scan typically marks `safe` / `suspicious` / `malicious` before the listing appears.
 

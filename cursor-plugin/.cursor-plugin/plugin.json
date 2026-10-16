@@ -1,13 +1,13 @@
 {
   "name": "arcwright",
   "version": "0.1.0",
-  "description": "Arcwright AI coding/build tools for Cursor. Rules, skill, and MCP config for start_build / build_status against Arcwright's hosted API.",
+  "description": "Arcwright AI coding/build tools for Cursor. Rules, skill, and MCP config for start_build / build_status against Arcwright's hosted API. Sign up free at arcwrightai.com/account/signup; paid plans at arcwrightai.com/pricing.",
   "author": {
     "name": "Arcwright",
     "email": "hello@arcwrightai.com"
   },
   "homepage": "https://arcwrightai.com",
-  "repository": "https://github.com/YOUR_ORG/arcwright-marketplace",
+  "repository": "https://github.com/suspectmds/arcwright-marketplace",
   "license": "MIT",
   "keywords": ["arcwright", "ai-coding", "build", "mcp", "forge"],
   "logo": "assets/logo.svg",

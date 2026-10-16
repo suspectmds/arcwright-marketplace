@@ -1,5 +1,7 @@
 # Arcwright (Cursor plugin)
 
+> **Get started:** [Sign up free](https://arcwrightai.com/account/signup) for an Arcwright account and API key. Higher limits are on the [paid plans](https://arcwrightai.com/pricing).
+
 Connect [Cursor](https://cursor.com) to [Arcwright](https://arcwrightai.com).
 
 ## Contents

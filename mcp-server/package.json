@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "stdio MCP server wrapping Arcwright's public API (start_build, build_status).",
   "type": "module",
-  "mcpName": "io.github.YOUR_GITHUB_USERNAME/arcwright",
+  "mcpName": "io.github.suspectmds/arcwright",
   "bin": {
     "arcwright-mcp": "./src/index.js"
   },
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_ORG/arcwright-marketplace.git",
+    "url": "https://github.com/suspectmds/arcwright-marketplace.git",
     "directory": "mcp-server"
   },
   "dependencies": {

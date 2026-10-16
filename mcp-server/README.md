@@ -1,5 +1,7 @@
 # @arcwright/mcp-server
 
+> **Get started:** [Sign up free](https://arcwrightai.com/account/signup) for an Arcwright account and API key. Higher limits are on the [paid plans](https://arcwrightai.com/pricing).
+
 Standalone **stdio** MCP server that wraps Arcwright's public HTTP API with two tools:
 
 | Tool | Purpose |
@@ -56,4 +58,4 @@ These tests only validate package JSON/skill shape. They do **not** call live se
 
 ## Publish (manual — owner)
 
-See root `PUBLISHING.md` for npm + MCP Registry steps. Replace `YOUR_GITHUB_USERNAME` / `YOUR_ORG` in `package.json` and `server.json` first.
+See root `PUBLISHING.md` for npm + MCP Registry steps. Replace `suspectmds` / `suspectmds` in `package.json` and `server.json` first.

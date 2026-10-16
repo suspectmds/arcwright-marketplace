@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.YOUR_GITHUB_USERNAME/arcwright",
+  "name": "io.github.suspectmds/arcwright",
   "description": "stdio MCP server for Arcwright: start_build and build_status against the public API.",
   "repository": {
-    "url": "https://github.com/YOUR_ORG/arcwright-marketplace",
+    "url": "https://github.com/suspectmds/arcwright-marketplace",
     "source": "github"
   },
   "version": "0.1.0",

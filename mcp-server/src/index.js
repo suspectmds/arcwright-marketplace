@@ -107,7 +107,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
     {
       name: "start_build",
       description:
-        "Start an Arcwright build/job from a natural-language prompt. Returns a build id to poll with build_status.",
+        "Start an Arcwright build/job from a natural-language prompt. Returns a build id to poll with build_status. Requires an Arcwright account: sign up at https://arcwrightai.com/account/signup (paid plans: https://arcwrightai.com/pricing).",
       inputSchema: {
         type: "object",
         properties: {
@@ -132,7 +132,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
     {
       name: "build_status",
       description:
-        "Get status for an Arcwright build previously started with start_build.",
+        "Get status for an Arcwright build previously started with start_build. Requires an Arcwright account: sign up at https://arcwrightai.com/account/signup (paid plans: https://arcwrightai.com/pricing).",
       inputSchema: {
         type: "object",
         properties: {
